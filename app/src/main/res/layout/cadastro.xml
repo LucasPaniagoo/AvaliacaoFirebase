@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0E7D2"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#80D0E7D2"
+        android:backgroundTint="#D0E7D2"
+        app:srcCompat="@drawable/logo___dev_mobile_av" />
+
+    <EditText
+        android:id="@+id/etcod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Código no catálogo"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <EditText
+        android:id="@+id/etdescroupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Descrição da roupa"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <EditText
+        android:id="@+id/etcor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Cor"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <Spinner
+        android:id="@+id/sptamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#33D0E7D2"
+        android:padding="5sp" />
+
+    <EditText
+        android:id="@+id/etquantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Quantidade"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <EditText
+        android:id="@+id/etnomcli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Nome do Cliente"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <EditText
+        android:id="@+id/ettel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#D0E7D2"
+        android:backgroundTint="#33D0E7D2"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Telefone"
+        android:inputType="text"
+        android:padding="5sp" />
+
+    <Spinner
+        android:id="@+id/spsitpag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:background="#33D0E7D2"
+        android:padding="5sp" />
+
+    <Button
+        android:id="@+id/btcad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="40sp"
+        android:backgroundTint="#618264"
+        android:fontFamily="@font/inter_medium"
+        android:text="Cadastrar"
+        android:textSize="45px"
+        app:cornerRadius="20px" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="40sp"
+        android:backgroundTint="#618264"
+        android:fontFamily="@font/inter_medium"
+        android:onClick="voltar"
+        android:text="Voltar"
+        android:textSize="45px"
+        app:cornerRadius="20px" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435348921514",
+    "project_id": "brechoif",
+    "storage_bucket": "brechoif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435348921514:android:1f67bb5b4521311cc304d3",
+        "android_client_info": {
+          "package_name": "com.lucaspaniago.avaliacaofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaI9ZLBDlLadO7iUGKf-Gwura-K9szJ8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
